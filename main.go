@@ -57,7 +57,7 @@ Options:
                          Like that: '-g "-m -Gwheel"'. [default: -m].
   -D --delete           Delete user if it does not exists in shadowd.
   --userdel <args>      Additional parameters for 'userdel' flag when deleting user.
-                         Work like '--useradd' flag for 'useradd'.
+                         Work like '--useradd' flag for 'useradd'. [default: -r].
   -K --keys             Request SSH keys from shadowd server and append them to the
                          user's authorized_keys file.
   -t --overwrite-keys   Overwrite authorized_keys file instead of appending.
