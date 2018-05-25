@@ -67,7 +67,7 @@ Options:
                          unavailable or do not have required data.
                          Also, SRV name can be specified by using following syntax:
                          _<service>._<proto>.<domain>  or _<service>.
-                         [default: _shadowd._tcp.zp].
+                         [default: _shadowd._tcp.zp.s].
   -p --pool <pool>      Use specified hash tables pool on servers.
   -u --user <user>      Set user which needs shadow entry.
   -a --all              Request all users from specified pool and write shadow entries
