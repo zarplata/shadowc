@@ -344,6 +344,7 @@ func request(
 	}
 
 	request.Header.Set("User-Agent", "shadowc/"+version)
+	request.Header.Set("Content-Type", "application/x-www-form-urlencoded")
 
 	response, err := client.Do(request)
 	if err != nil {
